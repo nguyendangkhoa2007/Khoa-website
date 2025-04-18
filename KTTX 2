@@ -1,0 +1,26 @@
+.dd1 {color: White;background-color: Red;text-align: center;padding: 20px;}
+.dd2 {color: White;background-color: Blue;padding: 5px;display: block;}
+.dd2 a {color: Pink;}
+.dd2 a:hover {color: Pink;background-color: Black;}
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Bài thực hành thiết kế web</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="dd1"> TIÊU ĐỀ </div>
+<div class="dd2">
+<a href="contents/gtbt.html" target="nd"> Giới thiệu bản thân</a>
+<a href="contents/tkb.html" target="nd"> Thời khoá biểu </a>
+<a href="contents/huongnghiep.html" target="nd"> Hướng nghiệp CNTT </a>
+<a href="contents/video.html" target="nd"> Video </a>
+<a href="contents/bai7-nv1.html" target="nd"> Đóng góp ý kiến </a>
+</div>
+<div>
+<iframe name="nd" height="100%" weight="100%"></iframe>
+</div>
+</body>
+</html>
+
